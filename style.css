@@ -1,0 +1,303 @@
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 100px;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0%;
+    /* background-color: darkgreen; */
+    background-image: url(4.PNG);
+
+}
+
+h2{
+    font-family: https://kinsta.com/blog/best-google-fonts/#13-concert-one;
+}
+
+p{
+    font-family: 'Yusei Magic', sans-serif;
+    color:  rgb(85, 19, 65);
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    font-size: 150%;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(62, 43, 228);
+    margin-bottom: 0%;
+}
+
+.name {
+    color: rgb(250, 177, 253);
+    font-family: 'papyrus', Fantacy;
+    padding-left: 60px;
+    text-align:left;
+   
+}
+
+.writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+    
+    position: relative;
+    left:200px;
+  }
+
+  .line{
+    color:  rgb(85, 19, 65);
+      font-size: 125%;
+      padding-left: 80px;
+      font-family: 'Yusei Magic', sans-serif;
+      
+  }
+
+  a:hover{
+    color: darkorange;
+}
+
+.dropbox{
+    color:darkorange;
+    position: relative;
+      
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+
+
+  /* 88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+  
+
+
+
+ul li {display: inline-block;
+        color: brown;
+        font-size:20px;
+        font-weight:20px;
+        position: relative;
+        left:100px;}
+        
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { display: block; }
+ul li ul li a {display:block !important;} 
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+@media screen and (max-width: 900px) { 
+  
+        .column.right {
+          display: none;
+        } 
+        #axe{
+          display: none;
+            }
+
+#apple{
+  display: none;
+}
+
+
+body {background-color: dodgerblue;}
+        h1{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: rgb(0, 0, 0);
+          font-weight: 75px;
+          font-size: 75px;
+          text-align: center;
+          /* background-color: darkgreen; */
+          background-image: url(4.PNG);
+      }
+
+      h2{
+          font-family: https://kinsta.com/blog/best-google-fonts/#13-concert-one;
+      }
+
+      p{
+          font-family: 'Yusei Magic', sans-serif;
+          color:  rgb(85, 19, 65);
+          padding-bottom: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          font-size: 20px;
+      }
+
+      h3{
+          font-family: 'Dancing Script', cursive;
+          text-align: center;
+          font-size: 20px;
+          color:rgb(62, 43, 228)
+          
+      }
+
+      .name {
+          color: rgb(250, 177, 253);
+          font-family: 'papyrus', Fantacy;
+          padding-left: 60px;
+          text-align:left;
+        
+      }
+
+      .writer-img {
+          -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+          -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+          box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+          float: left;
+          width: 50px;
+          
+          position: relative;
+          left:200px;
+        }
+
+        .line{
+            color:  rgb(85, 19, 65);
+            font-size: 20px;
+            padding-left: 60px;
+            
+        }
+
+        a:hover{
+          color: darkorange;
+      }
+
+      .dropbox{
+          color:darkorange;
+          position: relative;
+            
+      }
+
+      .flex-container {
+          display: flex;
+          background-color: DodgerBlue;
+          flex: 25%;padding: 20px;
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 20px;
+          font-size: 15px;
+        }
+
+        .bird{
+          background-image: url(bird.PNG);
+        }
+
+        /* 88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+        
+      ul li {display: inline-block;
+              color: brown;
+              font-size:20px;
+              font-weight:20px;
+              position: relative;
+              left:100px;}
+              
+      ul li:hover ul {display: block;}
+      ul li ul {
+        position: absolute;
+        width: 200px;
+        display: none;
+      }
+      ul li ul li { display: block; }
+      ul li ul li a {display:block !important;} 
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+        height: 600px; 
+      } 
+
+      .left {
+        width: 100%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+}
+
+@media screen and (max-width: 600px) { 
+    #author{
+      display: none;
+    }
+  }
